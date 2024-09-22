@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let div = document.createElement("div")
+        let image= document.createElement("img")
+        let p = document.createElement("p")
+
+        image.src = "https://th.bing.com/th/id/R.c3eac75aab41c30f1ae82bf8db82ded0?rik=5rsHLbeIXeBTMg&riu=http%3a%2f%2fmedia1.s-nbcnews.com%2fi%2fstreams%2f2013%2fMay%2f130522%2f6C7536084-g-hlt-120105-puppy-423p.jpg&ehk=%2bxb%2f0bCgZcDOSZCEIao9sLE3KM3Z451Cjv1v8cNZU7A%3d&risl=&pid=ImgRaw&r=0"
+        image.width=300
+
+        p.innerText = "Hello!! My name is Tomy"
+        div.appendChild(image)
+        div.appendChild(p)
+        document.body.appendChild(div)
+    </script>
+</body>
+</html>

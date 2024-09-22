@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        let ol = document.createElement("ol")
+        let list1 = document.createElement("li")
+        let list2 = document.createElement("li")
+        let sublist = document.createElement("ol")
+        let subli1 = document.createElement("li")
+        let subli2 = document.createElement("li")
+
+        list1.innerText = "Department"
+        list2.innerText = "ECE"
+        subli1.innerText = "Meghana"
+        subli2.innerText = "4D8"
+
+        sublist.appendChild(subli1)
+        sublist.appendChild(subli2)
+
+        list2.appendChild(sublist)
+
+        ol.appendChild(list1)
+        ol.appendChild(list2)
+        document.body.appendChild(ol)
+
+   </script> 
+</body>
+</html>

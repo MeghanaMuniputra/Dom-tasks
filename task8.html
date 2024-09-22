@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dlist = document.createElement("dl")
+        let dt1 = document.createElement("dt")
+        let dt2 = document.createElement("dt")
+        let dt3 = document.createElement("dt")
+        let dd1 = document.createElement("dd")
+        let dd2 = document.createElement("dd")
+        let dd3 = document.createElement("dd")
+
+        dt1.innerHTML = "<b>Front-End Technologies</b>"
+        dt2.innerHTML = "<b>Back-End Technologies</b>"
+        dt3.innerHTML = "<b>Teached by Hemanth sir</b>"
+
+        dd1.innerText = "HTML,CSS,JAVASCRIPT"
+        dd2.innerText = "NODEJS,PHP,PYTHON"
+        dd3.innerText = "To 16R Batch Students"
+        
+        dt1.appendChild(dd1)
+        dt2.appendChild(dd2)
+        dt3.appendChild(dd3)
+
+        dlist.appendChild(dt1)
+        dlist.appendChild(dt2)
+        dlist.appendChild(dt3)
+        document.body.appendChild(dlist)
+
+
+
+
+    </script>
+</body>
+</html>
